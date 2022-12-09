@@ -11,24 +11,24 @@ const About = ({ dark }) => {
                 <div className="numbers year">
                   <div className="wrapper">
                     <h3>
-                      <Counter end={18} />
+                      <Counter end={64} />
                     </h3>
                     <span className="name">
-                      Years of
+                      Total
                       <br />
-                      Success
+                      Research Paper
                     </span>
                   </div>
                 </div>
                 <div className="numbers project">
                   <div className="wrapper">
                     <h3>
-                      <Counter end={9} />K
+                      <Counter end={3} />
                     </h3>
                     <span className="name">
                       Total
                       <br />
-                      Projects
+                      Theses
                     </span>
                   </div>
                 </div>
@@ -36,17 +36,12 @@ const About = ({ dark }) => {
             </div>
             <div className="right">
               <div className="title wow fadeInUp" data-wow-duration="1s">
-                <span>{`I'm a Designer`}</span>
-                <h3>I Can Design Anything You Want</h3>
+                <span>{`I'm a associate professor of computer science at UC Berkeley`}</span>
+                {/* <h3>I am a associate professor of computer science at UC Berkeley</h3> */}
               </div>
               <div className="text wow fadeInUp" data-wow-duration="1s">
                 <p>
-                  {`Hello there! I'm a web designer, and I'm very passionate and
-                  dedicated to my work. With 20 years experience as a
-                  professional web developer, I have acquired the skills and
-                  knowledge necessary to make your project a success. I enjoy
-                  every step of the design process, from discussion and
-                  collaboration.`}
+                  {`I am an associate professor at UC Berkeley. I am interested in security, systems, and applied cryptography. I co-founded and co-direct the RISELab and SkyLab, labs aiming to build secure intelligent systems for the cloud and for the sky of clouds, respectively, and the DARE program for promoting diversity and equity. As faculty, I was awarded the ACM Grace Murray Hopper award 2021, a Sloan Research Fellowship, J. Lepreau Best Paper Award, Distinguished Paper Award, J. and D. Gray Award for Excellence in Undergraduate Teaching of Computer Science, Microsoft Research Faculty Fellowship, NSF CAREER, Bakar Faculty Fellowship, and I was selected to the list of 35 innovators under 35 by MIT Technology Review. `}
                 </p>
               </div>
               <div
@@ -54,7 +49,7 @@ const About = ({ dark }) => {
                 data-wow-duration="1s"
               >
                 <a className="anchor" href="#contact">
-                  <span>Hire Me</span>
+                  <span>Read More</span>
                 </a>
               </div>
             </div>
