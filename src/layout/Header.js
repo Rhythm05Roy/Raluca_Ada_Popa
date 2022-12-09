@@ -22,7 +22,7 @@ const Header = ({ logo }) => {
                 <a href="#portfolio">Portfolio</a>
               </li>
               <li>
-                <a href="#service">Service</a>
+                <a href="#service">Experties</a>
               </li>
               <li>
                 <a href="#blog">Blog</a>
