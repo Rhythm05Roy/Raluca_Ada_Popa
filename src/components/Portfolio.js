@@ -54,8 +54,7 @@ const Portfolio = () => {
             <span>Portfolio</span>
             <h3>My Amazing Works</h3>
             <p>
-              Most common methods for designing websites that work well on
-              desktop is responsive and adaptive design
+            Computer security, applied Cryptography 
             </p>
           </div>
           <div className="portfolio_filter">
@@ -73,7 +72,7 @@ const Portfolio = () => {
                   className={`c-pointer ${activeBtn("youtube")}`}
                   onClick={handleFilterKeyChange("youtube")}
                 >
-                  Youtube
+                  Research
                 </a>
               </li>
               <li>
@@ -81,7 +80,7 @@ const Portfolio = () => {
                   className={`c-pointer ${activeBtn("vimeo")}`}
                   onClick={handleFilterKeyChange("vimeo")}
                 >
-                  Vimeo
+                  Student
                 </a>
               </li>
               <li>
@@ -89,7 +88,7 @@ const Portfolio = () => {
                   className={`c-pointer ${activeBtn("soundcloud")}`}
                   onClick={handleFilterKeyChange("soundcloud")}
                 >
-                  Soundcloud
+                  Teaching
                 </a>
               </li>
               <li>
@@ -97,7 +96,7 @@ const Portfolio = () => {
                   className={`c-pointer ${activeBtn("popup")}`}
                   onClick={handleFilterKeyChange("popup")}
                 >
-                  Popup
+                  Award
                 </a>
               </li>
               <li>
@@ -105,7 +104,7 @@ const Portfolio = () => {
                   className={`c-pointer  ${activeBtn("detail")}`}
                   onClick={handleFilterKeyChange("detail")}
                 >
-                  Detail
+                  Service
                 </a>
               </li>
             </ul>
@@ -117,12 +116,12 @@ const Portfolio = () => {
                 <div className="inner">
                   <div
                     className="entry dizme_tm_portfolio_animation_wrap"
-                    data-title="Mockup Shape"
-                    data-category="Youtube"
+                    data-title="Research Papers"
+                    data-category="See Details"
                   >
                     <a
                       className="popup-youtube"
-                      href="https://www.youtube.com/embed/7e90gBu4pas?autoplay=1"
+                      href="https://conferences.sigcomm.org/hotnets/2022/"
                     >
                       <img src="img/thumbs/42-56.jpg" alt="image" />
                       <div
@@ -132,8 +131,81 @@ const Portfolio = () => {
                     </a>
                   </div>
                   <div className="mobile_title">
-                    <h3>Mockup Shape</h3>
-                    <span>Youtube</span>
+                    <h3>Research Paper</h3>
+                    <span>See Details</span>
+                  </div>
+                </div>
+              </li>
+              <li className="youtube grid-item">
+                <div className="inner">
+                  <div
+                    className="entry dizme_tm_portfolio_animation_wrap"
+                    data-title="Research Paper"
+                    data-category="See Detailss"
+                  >
+                    <a
+                      className="popup-youtube"
+                      href="https://www.usenix.org/conference/usenixsecurity22"
+                    >
+                      <img src="img/thumbs/42-34.jpg" alt="image" />
+                      <div
+                        className="main"
+                        data-img-url="img/portfolio/7.jpg"
+                      />
+                    </a>
+                  </div>
+                  <div className="mobile_title">
+                    <h3>Research Paper</h3>
+                    <span>See Details</span>
+                  </div>
+                </div>
+              </li>
+              <li className="youtube grid-item">
+                <div className="inner">
+                  <div
+                    className="entry dizme_tm_portfolio_animation_wrap"
+                    data-title="Research Papers"
+                    data-category="See Details"
+                  >
+                    <a
+                      className="popup-youtube"
+                      href="https://www.ieee-security.org/TC/SP2022/"
+                    >
+                      <img src="img/thumbs/42-56.jpg" alt="image" />
+                      <div
+                        className="main"
+                        data-img-url="img/portfolio/8.jpg"
+                      />
+                    </a>
+                  </div>
+                  <div className="mobile_title">
+                    <h3>Research Paper</h3>
+                    <span>See Details</span>
+                  </div>
+                </div>
+              </li>
+              
+              <li className="vimeo grid-item">
+                <div className="inner">
+                  <div
+                    className="entry dizme_tm_portfolio_animation_wrap"
+                    data-title="My Students"
+                    data-category="See Detais"
+                  >
+                    <a
+                      className="popup-vimeo"
+                      href="https://pratyushmishra.com/"
+                    >
+                      <img src="img/thumbs/42-34.jpg" alt="image" />
+                      <div
+                        className="main"
+                        data-img-url="img/portfolio/s1.jpg"
+                      />
+                    </a>
+                  </div>
+                  <div className="mobile_title">
+                    <h3>My Students</h3>
+                    <span>See Details</span>
                   </div>
                 </div>
               </li>
@@ -141,23 +213,47 @@ const Portfolio = () => {
                 <div className="inner">
                   <div
                     className="entry dizme_tm_portfolio_animation_wrap"
-                    data-title="Ave Bottle"
-                    data-category="Vimeo"
+                    data-title="My Students"
+                    data-category="See Details"
                   >
                     <a
                       className="popup-vimeo"
-                      href="https://player.vimeo.com/video/337293658?autoplay=1"
+                      href="https://www.chenweikeng.com/"
                     >
                       <img src="img/thumbs/42-34.jpg" alt="image" />
                       <div
                         className="main"
-                        data-img-url="img/portfolio/2.jpg"
+                        data-img-url="img/portfolio/s2.jpg"
                       />
                     </a>
                   </div>
                   <div className="mobile_title">
-                    <h3>Ave Bottle</h3>
-                    <span>Vimeo</span>
+                    <h3>My Students</h3>
+                    <span>See Details</span>
+                  </div>
+                </div>
+              </li>
+              <li className="vimeo grid-item">
+                <div className="inner">
+                  <div
+                    className="entry dizme_tm_portfolio_animation_wrap"
+                    data-title="My Students"
+                    data-category="See Details"
+                  >
+                    <a
+                      className="popup-vimeo"
+                      href="https://people.eecs.berkeley.edu/~samkumar/"
+                    >
+                      <img src="img/thumbs/42-34.jpg" alt="image" />
+                      <div
+                        className="main"
+                        data-img-url="img/portfolio/s3.jpg"
+                      />
+                    </a>
+                  </div>
+                  <div className="mobile_title">
+                    <h3>My Students</h3>
+                    <span>See Details</span>
                   </div>
                 </div>
               </li>
@@ -165,23 +261,71 @@ const Portfolio = () => {
                 <div className="inner">
                   <div
                     className="entry dizme_tm_portfolio_animation_wrap"
-                    data-title="Magic Art"
-                    data-category="Soundcloud"
+                    data-title="Teaching"
+                    data-category="See Details"
                   >
                     <a
                       className="soundcloude_link mfp-iframe audio"
-                      href="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/471954807&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+                      href="https://fa21.cs161.org/"
                     >
                       <img src="img/thumbs/42-56.jpg" alt="image" />
                       <div
                         className="main"
-                        data-img-url="img/portfolio/3.jpg"
+                        data-img-url="img/portfolio/t3.jpg"
                       />
                     </a>
                   </div>
                   <div className="mobile_title">
-                    <h3>Magic Art</h3>
-                    <span>Soundcloud</span>
+                    <h3>Teaching</h3>
+                    <span>See Details</span>
+                  </div>
+                </div>
+              </li>
+              <li className="soundcloud grid-item">
+                <div className="inner">
+                  <div
+                    className="entry dizme_tm_portfolio_animation_wrap"
+                    data-title="Teaching"
+                    data-category="See Details"
+                  >
+                    <a
+                      className="soundcloude_link mfp-iframe audio"
+                      href="https://inst.eecs.berkeley.edu/~cs276/fa20//"
+                    >
+                      <img src="img/thumbs/42-56.jpg" alt="image" />
+                      <div
+                        className="main"
+                        data-img-url="img/portfolio/t2.jpg"
+                      />
+                    </a>
+                  </div>
+                  <div className="mobile_title">
+                    <h3>Teaching</h3>
+                    <span>See Details</span>
+                  </div>
+                </div>
+              </li>
+              <li className="soundcloud grid-item">
+                <div className="inner">
+                  <div
+                    className="entry dizme_tm_portfolio_animation_wrap"
+                    data-title="Teaching"
+                    data-category="See Details"
+                  >
+                    <a
+                      className="soundcloude_link mfp-iframe audio"
+                      href="https://sp20.cs161.org/"
+                    >
+                      <img src="img/thumbs/42-56.jpg" alt="image" />
+                      <div
+                        className="main"
+                        data-img-url="img/portfolio/t1.jpg"
+                      />
+                    </a>
+                  </div>
+                  <div className="mobile_title">
+                    <h3>Teaching</h3>
+                    <span>See Details</span>
                   </div>
                 </div>
               </li>
@@ -189,24 +333,66 @@ const Portfolio = () => {
                 <div className="inner">
                   <div
                     className="entry dizme_tm_portfolio_animation_wrap"
-                    data-title="Scott Felix"
-                    data-category="Popup"
+                    data-title="Awards"
+                    data-category="See Details"
                   >
-                    <a className="zoom" href="img/portfolio/5.jpg">
+                    <a className="zoom" href="https://www.ieee-security.org/TC/EuroSP2022/accepted_and_awards.html">
                       <img src="img/thumbs/42-56.jpg" alt="image" />
                       <div
                         className="main"
-                        data-img-url="img/portfolio/5.jpg"
+                        data-img-url="img/portfolio/a1.jpg"
                       />
                     </a>
                   </div>
                   <div className="mobile_title">
-                    <h3>Blue Lemon</h3>
-                    <span>Popup</span>
+                    <h3>Awards</h3>
+                    <span>See Details</span>
                   </div>
                 </div>
               </li>
               <li className="popup grid-item">
+                <div className="inner">
+                  <div
+                    className="entry dizme_tm_portfolio_animation_wrap"
+                    data-title="Awards"
+                    data-category="See Details"
+                  >
+                    <a className="zoom" href="https://awards.acm.org/hopper">
+                      <img src="img/thumbs/42-56.jpg" alt="image" />
+                      <div
+                        className="main"
+                        data-img-url="img/portfolio/a2.jpg"
+                      />
+                    </a>
+                  </div>
+                  <div className="mobile_title">
+                    <h3>Awards</h3>
+                    <span>See Details</span>
+                  </div>
+                </div>
+              </li>
+              <li className="popup grid-item">
+                <div className="inner">
+                  <div
+                    className="entry dizme_tm_portfolio_animation_wrap"
+                    data-title="Awards"
+                    data-category="See Details"
+                  >
+                    <a className="zoom" href="https://www.microsoft.com/en-us/research/blog/investing-in-leading-minds-microsoft-research-faculty-fellowship/">
+                      <img src="img/thumbs/42-56.jpg" alt="image" />
+                      <div
+                        className="main"
+                        data-img-url="img/portfolio/a3.jpg"
+                      />
+                    </a>
+                  </div>
+                  <div className="mobile_title">
+                    <h3>Awards</h3>
+                    <span>See Details</span>
+                  </div>
+                </div>
+              </li>
+              {/* <li className="popup grid-item">
                 <div className="inner">
                   <div
                     className="entry dizme_tm_portfolio_animation_wrap"
@@ -226,26 +412,68 @@ const Portfolio = () => {
                     <span>Popup</span>
                   </div>
                 </div>
-              </li>
+              </li> */}
 
-              <li className="detail grid-item" onClick={() => setPopup(true)}>
+              <li className="detail grid-item" >
                 <div className="inner">
                   <div
                     className="entry dizme_tm_portfolio_animation_wrap"
-                    data-title="Global Evolution"
-                    data-category="Detail"
+                    data-title="Services"
+                    data-category="See Details"
                   >
-                    <a className="portfolio_popup" href="#">
+                    <a className="portfolio_popup" href="https://sosp2023.mpi-sws.org/">
                       <img src="img/thumbs/42-34.jpg" alt="image" />
                       <div
                         className="main"
-                        data-img-url="img/portfolio/6.jpg"
+                        data-img-url="img/portfolio/sr1.jpg"
                       />
                     </a>
                   </div>
                   <div className="mobile_title">
-                    <h3>Global Evolution</h3>
-                    <span>Detail</span>
+                    <h3>Services</h3>
+                    <span>See Detail</span>
+                  </div>
+                </div>
+              </li>
+              <li className="detail grid-item" >
+                <div className="inner">
+                  <div
+                    className="entry dizme_tm_portfolio_animation_wrap"
+                    data-title="Services"
+                    data-category="See Details"
+                  >
+                    <a className="portfolio_popup" href="https://sosp2021.mpi-sws.org/">
+                      <img src="img/thumbs/42-34.jpg" alt="image" />
+                      <div
+                        className="main"
+                        data-img-url="img/portfolio/sr2.jpg"
+                      />
+                    </a>
+                  </div>
+                  <div className="mobile_title">
+                    <h3>Services</h3>
+                    <span>See Detail</span>
+                  </div>
+                </div>
+              </li>
+              <li className="detail grid-item">
+                <div className="inner">
+                  <div
+                    className="entry dizme_tm_portfolio_animation_wrap"
+                    data-title="Services"
+                    data-category="See Details"
+                  >
+                    <a className="portfolio_popup" href="https://www.usenix.org/conference/usenixsecurity16/technical-sessions">
+                      <img src="img/thumbs/42-34.jpg" alt="image" />
+                      <div
+                        className="main"
+                        data-img-url="img/portfolio/sr3.jpg"
+                      />
+                    </a>
+                  </div>
+                  <div className="mobile_title">
+                    <h3>Services</h3>
+                    <span>See Detail</span>
                   </div>
                 </div>
               </li>
