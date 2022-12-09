@@ -1,35 +1,29 @@
 [
   {
-    "title": "Jim Morisson Says when the musics over turn off the light",
+    "title": "About ACM Grace Murray Hopper Award",
     "img": "img/news/1.jpg",
-    "category": "Web Development",
-    "date": { "date": "23", "month": "Dec" },
+    "category": "",
+    "date": { "date": "10", "month": "Jan" },
     "details": [
-      "Dizme is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
-      "In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design services can have an immense impact on your company’s bottom line.",
-      "That’s why more companies are not only reevaluating their website’s design but also partnering with Kura, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business."
+      "Awarded to the outstanding young computer professional of the year, selected on the basis of a single recent major technical or service contribution. This award is accompanied  by a prize of $35,000. The candidate must have been 35 years of age or less at the time the qualifying contribution was made. Financial support of the Grace Murray Hopper Award is provided by Microsoft."
     ]
   },
   {
-    "title": "How to be appreciated for your hard work as a developer",
+    "title": "An automatic cost modeling framework for secure multi-party computation",
     "img": "img/news/2.jpg",
-    "category": "Branding",
-    "date": { "date": "23", "month": "Dec" },
+    "category": "",
+    "date": { "date": "3", "month": "Sep" },
     "details": [
-      "Dizme is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
-      "In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design services can have an immense impact on your company’s bottom line.",
-      "That’s why more companies are not only reevaluating their website’s design but also partnering with Kura, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business."
+      "The last decade has seen an explosion in the number of new secure multi-party computation (MPC) protocols that enable collaborative computation on sensitive data. No single MPC protocol is optimal for all types of computation. As a result, researchers have created hybrid-protocol compilers that translate a program into a hybrid protocol that mixes different MPC protocols. Hybrid-protocol compilers crucially rely on accurate cost models, which are handwritten by the compilers' developers, to choose the correct schedule of protocols. In this paper, we propose CostCO, the first automatic MPC cost modeling framework. CostCO develops a novel API to interface with a variety of MPC protocols, and leverages domain-specific properties of MPC in order to enable efficient and automatic cost-model generation for a wide range of MPC protocols. CostCO employs a two-phase experiment design to efficiently synthesize cost models of the MPC protocol's runtime as well as its memory and network usage."
     ]
   },
   {
-    "title": "How designers and developers can collaborate better",
+    "title": "Nearly Zero-Cost Virtual Memory for Secure Computation",
     "img": "img/news/3.jpg",
-    "category": "Social Media",
-    "date": { "date": "23", "month": "Dec" },
+    "category": "",
+    "date": { "date": "27", "month": "Oct" },
     "details": [
-      "Dizme is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
-      "In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design services can have an immense impact on your company’s bottom line.",
-      "That’s why more companies are not only reevaluating their website’s design but also partnering with Kura, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business."
+      "Secure Computation (SC) is a family of cryptographic primitives for computing on encrypted data in single-party and multi-party settings. SC is being increasingly adopted by industry for a variety of applications. A significant obstacle to using SC for practical applications is the memory overhead of the underlying cryptography. We develop MAGE, an execution engine for SC that efficiently runs SC computations that do not fit in memory. We observe that, due to their intended security guarantees, SC schemes are inherently oblivious -- their memory access patterns are independent of the input data. Using this property, MAGE calculates the memory access pattern ahead of time and uses it to produce a memory management plan. This formulation of memory management, which we call memory programming, is a generalization of paging that allows MAGE to provide a highly efficient virtual memory abstraction for SC. MAGE outperforms the OS virtual memory system by up to an order of magnitude, and in many cases, runs SC computations that do not fit in memory at nearly the same speed as if the underlying machines had unbounded physical memory to fit the entire computation. "
     ]
   }
 ]
