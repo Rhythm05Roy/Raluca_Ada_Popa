@@ -21,14 +21,13 @@ const Skills = ({ dark }) => {
                 data-wow-duration="1s"
                 data-align="left"
               >
-                <span>Design is Life</span>
-                <h3>I Develop Skills Regularly to Keep Me Update</h3>
+                <span>Research Expertise and Interest</span>
+                <h3>Computer security, applied Cryptography </h3>
                 <p>
-                  Most common methods for designing websites that work well on
-                  desktop is responsive and adaptive design
+                I am a Robert E. and Beverly A. Brooks associate professor at UC Berkeley. I am interested in security, systems, and applied cryptography. I co-founded the RISELab and Skylab, whose aim is to build systems that are secure and intelligent. I am also a co-founder of PreVeil and Opaque, two security startups based on my research.<br/>Before joining UC Berkeley, I did a one-year postdoc at ETH Zürich in the System Security group led by Prof. Srdjan Capkun. Before that, I completed my Ph.D. in computer science at MIT, my thesis being about building practical systems that compute on encrypted data. I earned my Masters of Engineering in Computer Science in 2010 and two Bachelors in Computer Science and Mathematics in 2009 from MIT. 
                 </p>
               </div>
-              <div
+              {/* <div
                 className="dodo_progress wow fadeInUp"
                 data-wow-duration="1s"
               >
@@ -52,7 +51,7 @@ const Skills = ({ dark }) => {
                       </div>
                     </div>
                   ))}
-              </div>
+              </div> */}
             </div>
             <div className="right">
               <img src={`img/skills/${dark ? 2 : 1}.jpg`} alt="image" />
