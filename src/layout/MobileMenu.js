@@ -44,7 +44,7 @@ const MobileMenu = ({ logo }) => {
             </li>
             <li>
               <a onClick={() => setToggle(false)} href="#service">
-                Service
+                Experties
               </a>
             </li>
             <li>
