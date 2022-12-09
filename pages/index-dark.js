@@ -30,7 +30,7 @@ const Index = () => {
       <Home dark />
       {/* HERO */}
       {/* PROCESS */}
-      <Process dark />
+      {/* <Process dark /> */}
       {/* /PROCESS */}
       {/* ABOUT */}
       <About dark />
@@ -45,7 +45,7 @@ const Index = () => {
       <Service dark />
       {/* /SERVICES */}
       {/* TESTIMONIALS */}
-      <Testimonial />
+      {/* <Testimonial /> */}
       {/* /TESTIMONIALS */}
       {/* PARTNERS */}
       <Partners dark />
