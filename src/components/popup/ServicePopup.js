@@ -20,9 +20,9 @@ const ServicePopup = ({ data, open, close }) => {
               </div>
               <div className="main_title">
                 <h3>{data && data.title ? data.title : "Title"}</h3>
-                <span className="price">
+                {/* <span className="price">
                   Starts from <span>${data && data.price}</span>
-                </span>
+                </span> */}
               </div>
               <div className="descriptions">
                 {data &&
